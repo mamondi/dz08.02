@@ -1,6 +1,7 @@
 #include "else.h"
 
 int main() {
+    //тестування написав чатом гпт
     MyUniquePtr<int> uniquePtr(new int(42));
     std::cout << "MyUniquePtr value: " << *uniquePtr << std::endl;
 
